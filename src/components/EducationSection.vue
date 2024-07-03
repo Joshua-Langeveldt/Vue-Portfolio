@@ -2,7 +2,8 @@
   
   <!-- Main timeline container -->
 <div class="timeline-container">
-  <!-- Individual timeline point -->
+
+  <!--  timeline point -->
   <div class="timeline-point">
 <i class="fa-solid fa-graduation-cap"></i> 
    <div class="popup">
@@ -16,7 +17,7 @@
     </div>
   </div>
 
-  <!-- Individual timeline point -->
+  <!--  timeline point -->
   <div class="timeline-point">
 <i class="fa-sharp fa-solid fa-dog"></i>   
     <div class="popup">
@@ -29,7 +30,7 @@
     </div>
   </div>
 
-  <!-- Individual timeline point -->
+  <!-- timeline point -->
   <div class="timeline-point">
 <i class="fa-sharp fa-solid fa-comments-dollar"></i>  
   <div class="popup">
@@ -43,7 +44,7 @@
     </div>
   </div>
 
-  <!-- Individual timeline point -->
+  <!--  timeline point -->
   <div class="timeline-point">
 <i class="fa-solid fa-house-chimney-user"></i> 
    <div class="popup">
@@ -57,7 +58,7 @@
     </div>
   </div>
 
-  <!-- Individual timeline point -->
+  <!--  timeline point -->
   <div class="timeline-point">
 <i class="fa-solid fa-laptop-code"></i>
     <div class="popup">
@@ -139,27 +140,27 @@ export default {
 
 /* Common styling for timeline points */
 .timeline-point:nth-child(1) {
-  --color: #CCCCCC;
+  --color: rgb(136, 136, 230);
   --delay: 0s;
 }
 
 .timeline-point:nth-child(2) {
-  --color: #CCCCCC;
+  --color: #ffcc00;
   --delay: 1s;
 }
 
 .timeline-point:nth-child(3) {
-  --color: #CCCCCC;
+  --color: rgb(136, 136, 230);
   --delay: 2s;
 }
 
 .timeline-point:nth-child(4) {
-  --color: #CCCCCC;
+  --color: #ffcc00;
   --delay: 3s;
 }
 
 .timeline-point:nth-child(5) {
-  --color: #CCCCCC;
+  --color: rgb(136, 136, 230);
   --delay: 4s;
 }
 
@@ -194,7 +195,7 @@ export default {
   display: grid;
   font-size: 2rem;
   font-weight: bold;
-  color:#d1691d;
+  color:#fff;
   place-items: center;
   cursor: auto;
   animation: fadeIn 0.5s linear calc(var(--delay) + 0.7s) forwards;
