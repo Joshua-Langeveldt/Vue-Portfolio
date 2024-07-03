@@ -101,7 +101,7 @@ img {
   font-size: 4rem;
   color: var(--secondary);
   margin-bottom: rem;
-  margin-top: 25rem;
+  margin-top: 23rem !important;
   margin-right: 15rem;
   font-family: "Italiana", sans-serif;
   font-weight: 400;
@@ -190,7 +190,7 @@ img[alt="logo"] {
   perspective: 1000px;
   animation: rotate 5s infinite alternate;
   left: 20%;
-  top: 10%;
+  top: 9%;
 }
 
 .card {
