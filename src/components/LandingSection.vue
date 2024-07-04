@@ -84,13 +84,13 @@
     }
   
     .changingTitle {
-      margin-top: 0rem;
-      margin-left:-48rem;
-      font-size: 1.5rem;
+      margin-top: -4rem;
+      margin-left:-54rem;
+      font-size: 2rem;
     }
   
     .landing-title {
-      font-size: 2rem;
+      font-size: 5rem;
       margin-top: 6rem;
     }
   
@@ -118,9 +118,33 @@
   
     .landing-title {
       margin-top: 10rem;
-      font-size: 4rem;
+      font-size: 8rem;
       margin-bottom: 2rem;
     }
+
+    .changingTitle {
+      margin-right:14.5rem !important;
+      font-size: 3.5rem;
+      margin-top: 1rem;
+    }
+
+    .rotating-div{
+  
+  width:40%;
+  height: 30%;
+  margin-top: 70rem;
+  margin-left: 8rem;
+  margin-bottom: 10rem;
+}
+
+.crown-image {
+        position: absolute;
+        top: -155%;
+        left: 51%;
+        transform: translateX(-50%);
+        width: 150px; 
+        z-index: 1; 
+        }
   }
   </style>
   
