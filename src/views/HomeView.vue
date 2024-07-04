@@ -11,7 +11,7 @@
     </section>
 
     <section class="row max-height" id="education">
-      <h2 class="main-heading">Education</h2>
+      <h2 class="main-heading">Resume</h2>
       <EducationSection />
     </section>
 
@@ -22,10 +22,12 @@
 
     <section class="row max-height" id="testimonials">
       <h2 class="main-heading">Testimonials</h2>
+      <TestimonialsSection />
     </section>
 
     <section class="row max-height" id="projects">
       <h2 class="main-heading">Projects</h2>
+      <ProjectsSection />
     </section>
 
     <section class="row max-height" id="contact">
@@ -40,13 +42,17 @@ import LandingSection from '@/components/LandingSection.vue'
 import AboutSection from '@/components/AboutSection.vue'
 import EducationSection from '@/components/EducationSection.vue'
 import SkillsSection from '@/components/SkillsSection.vue'
+import TestimonialsSection from '@/components/TestimonialsSection.vue'
+import ProjectsSection from '@/components/ProjectsSection.vue'
 export default {
   name: 'HomeView',
   components: {
     LandingSection,
     AboutSection,
     EducationSection,
-    SkillsSection
+    SkillsSection,
+    TestimonialsSection,
+    ProjectsSection
   }
 }
 </script>
