@@ -26,7 +26,7 @@
             >
               <div class="offcanvas-header">
                 <router-link class="navbar-brand" to="/">
-                  <a href="#home"></a>
+                  <a href="#landing"></a>
                   <img
                     src="https://joshua-langeveldt.github.io/images/images/Logo/LOGO.png"
                     alt="logo"
@@ -44,13 +44,8 @@
                 <ul
                   class="navbar-nav fw-bolder ms-auto"
                 >
-                  <li class="nav-item">
-                    <router-link
-                      class="nav-link font-weight-bold"
-                      aria-current="page"
-                      to="/"
-                      >Home</router-link
-                    >
+                <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="#landing">Home</a>
                   </li>
                   <li class="nav-item">
                     <a class="nav-link" aria-current="page" href="#about">About</a>
