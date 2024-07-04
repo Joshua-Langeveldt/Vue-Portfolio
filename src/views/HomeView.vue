@@ -32,6 +32,7 @@
 
     <section class="row max-height" id="contact">
       <h2 class="main-heading">Contact</h2>
+      <ContactSection />
     </section>
 
   </div>
@@ -44,6 +45,7 @@ import EducationSection from '@/components/EducationSection.vue'
 import SkillsSection from '@/components/SkillsSection.vue'
 import TestimonialsSection from '@/components/TestimonialsSection.vue'
 import ProjectsSection from '@/components/ProjectsSection.vue'
+import ContactSection from '@/components/ContactSection.vue'
 export default {
   name: 'HomeView',
   components: {
@@ -52,7 +54,8 @@ export default {
     EducationSection,
     SkillsSection,
     TestimonialsSection,
-    ProjectsSection
+    ProjectsSection,
+    ContactSection
   }
 }
 </script>
