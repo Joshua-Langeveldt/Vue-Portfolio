@@ -92,7 +92,7 @@
   .animation-container {
     position: relative;
     width: 800px;
-    height: 550px;
+    height: 500px;
     margin: auto ;
     animation-timing-function: linear;
     animation-iteration-count: infinite;
@@ -280,7 +280,7 @@
   
   .button-container {
     position: absolute;
-    top: 420%;
+    top: 406%;
     left: 50.5%;
     transform: translate(-50%, -50%);
     z-index: 1;
