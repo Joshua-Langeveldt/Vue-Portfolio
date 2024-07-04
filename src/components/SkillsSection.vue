@@ -76,6 +76,8 @@
   </script>
   
   <style scoped>
+
+
   .cust-container {
     background-size: cover;
     background-position: center;
@@ -94,7 +96,7 @@
     margin: auto ;
     animation-timing-function: linear;
     animation-iteration-count: infinite;
-    top: 28%;
+    top: 20%;
     transform: translateY(-55%);
   }
   
@@ -278,8 +280,8 @@
   
   .button-container {
     position: absolute;
-    top: 409%;
-    left: 50%;
+    top: 420%;
+    left: 50.5%;
     transform: translate(-50%, -50%);
     z-index: 1;
     background-color: rgba(0, 0, 0, 0.7);
@@ -308,5 +310,67 @@
     height: 100%;
     border-radius: 50%;
   }
+
+/* Additional styles for responsiveness */
+@media screen and (max-width: 720px) {
+
+
+  .animation-container {
+    width: 100%;
+    height: 50%;    
+  }
+
+  .button-container{
+
+    top: 252rem;
+    left:29rem;
+  }
+
+  .button-container:hover {
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+
+  .toggle-icon {
+    color: #ffcc00;
+    font-size: 24px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .toggle-icon:hover {
+    color: #ffffff;
+  }
+
+}
+
+@media screen and (max-width: 300px) {
+  .animation-container {
+    width: 100%;
+    height: 250px; 
+    top: 15%;
+  }
+
+  .button-container{
+top: 298rem;
+left:37rem;
+}
+
+.button-container:hover {
+background-color: rgba(0, 0, 0, 0.5);
+}
+
+.toggle-icon {
+color: #ffcc00;
+font-size: 24px;
+cursor: pointer;
+transition: all 0.3s ease;
+}
+
+.toggle-icon:hover {
+color: #ffffff;
+}
+
+}
+
   </style>
   

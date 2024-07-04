@@ -1,5 +1,5 @@
 <template>
-<section class="row max-height" id="about">   
+<section class="row max-height">   
   <div class="row">
     <div class="d-flex justify-content-between">
       <div class="cust-about"> 
@@ -61,6 +61,7 @@ gap: 2px;
 justify-content: space-evenly;
 height: 400px;
 width: 565px;
+margin-bottom: 10rem;
 /* transform: rotate3d(-1, -2, 0.2, 32deg); */
 }
 

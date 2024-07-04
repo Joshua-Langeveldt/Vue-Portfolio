@@ -1,90 +1,95 @@
 <template>
-  
-  <!-- Main timeline container -->
-<div class="timeline-container">
+  <div class="container">
+    <div class="row">
+    </div>
+    <div class="row">
+      <!-- Main timeline container -->
+      <div class="timeline-container">
+        <!--  timeline point -->
+        <div class="timeline-point">
+          <i class="fa-solid fa-graduation-cap"></i>
+          <div class="popup">
+            <div class="popup-number">1</div>
+            <div class="popup-details">
+              <div class="popup-title">Alexander Sinton High</div>
+              Lorem ipsum dolor sit amet conse adipisicing elit. Dicta vitae
+              voluptates id hic recusandae omnis cupiditate odit quis, assumenda
+              optio?
+            </div>
+          </div>
+        </div>
 
-  <!--  timeline point -->
-  <div class="timeline-point">
-<i class="fa-solid fa-graduation-cap"></i> 
-   <div class="popup">
-      <div class="popup-number">1</div>
-      <div class="popup-details">
-        <div class="popup-title">Alexander Sinton High</div>
-        Lorem ipsum dolor sit amet conse adipisicing elit. Dicta vitae voluptates id hic recusandae
-        omnis
-        cupiditate odit quis, assumenda optio?
+        <!--  timeline point -->
+        <div class="timeline-point">
+          <i class="fa-sharp fa-solid fa-dog"></i>
+          <div class="popup">
+            <div class="popup-number">2</div>
+            <div class="popup-details">
+              <div class="popup-title">Mango5 Dotsure</div>
+              Lorem ipsum dolor sit amet conse adipisicing elit. Dicta vitae
+              voluptates id hic recusandae omnis cupiditate odit quis, assumenda
+              optio?
+            </div>
+          </div>
+        </div>
+
+        <!-- timeline point -->
+        <div class="timeline-point">
+          <i class="fa-sharp fa-solid fa-comments-dollar"></i>
+          <div class="popup">
+            <div class="popup-number">3</div>
+            <div class="popup-details">
+              <div class="popup-title">Sanlam</div>
+              Lorem ipsum dolor sit amet conse adipisicing elit. Dicta vitae
+              voluptates id hic recusandae omnis cupiditate odit quis, assumenda
+              optio?
+            </div>
+          </div>
+        </div>
+
+        <!--  timeline point -->
+        <div class="timeline-point">
+          <i class="fa-solid fa-house-chimney-user"></i>
+          <div class="popup">
+            <div class="popup-number">4</div>
+            <div class="popup-details">
+              <div class="popup-title">IHS House Sitting</div>
+              Lorem ipsum dolor sit amet conse adipisicing elit. Dicta vitae
+              voluptates id hic recusandae omnis cupiditate odit quis, assumenda
+              optio?
+            </div>
+          </div>
+        </div>
+
+        <!--  timeline point -->
+        <div class="timeline-point">
+          <i class="fa-solid fa-laptop-code"></i>
+          <div class="popup">
+            <div class="popup-number">5</div>
+            <div class="popup-details">
+              <div class="popup-title">Life Choice Academy</div>
+              Lorem ipsum dolor sit amet conse adipisicing elit. Dicta vitae
+              voluptates id hic recusandae omnis cupiditate odit quis, assumenda
+              optio?
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   </div>
-
-  <!--  timeline point -->
-  <div class="timeline-point">
-<i class="fa-sharp fa-solid fa-dog"></i>   
-    <div class="popup">
-      <div class="popup-number">2</div>
-      <div class="popup-details">
-        <div class="popup-title">Mango5 Dotsure</div>
-        Lorem ipsum dolor sit amet conse adipisicing elit. Dicta vitae voluptates
-        id hic recusandae omnis cupiditate odit quis, assumenda optio?
-      </div>
-    </div>
-  </div>
-
-  <!-- timeline point -->
-  <div class="timeline-point">
-<i class="fa-sharp fa-solid fa-comments-dollar"></i>  
-  <div class="popup">
-      <div class="popup-number">3</div>
-      <div class="popup-details">
-        <div class="popup-title">Sanlam</div>
-        Lorem ipsum dolor sit amet conse adipisicing elit. Dicta
-        vitae voluptates
-        id hic recusandae omnis cupiditate odit quis, assumenda optio?
-      </div>
-    </div>
-  </div>
-
-  <!--  timeline point -->
-  <div class="timeline-point">
-<i class="fa-solid fa-house-chimney-user"></i> 
-   <div class="popup">
-      <div class="popup-number">4</div>
-      <div class="popup-details">
-        <div class="popup-title">IHS House Sitting</div>
-        Lorem ipsum dolor sit amet conse adipisicing elit. Dicta vitae voluptates id hic recusandae
-        omnis
-        cupiditate odit quis, assumenda optio?
-      </div>
-    </div>
-  </div>
-
-  <!--  timeline point -->
-  <div class="timeline-point">
-<i class="fa-solid fa-laptop-code"></i>
-    <div class="popup">
-      <div class="popup-number">5</div>
-      <div class="popup-details">
-        <div class="popup-title">Life Choice Academy</div>
-        Lorem ipsum dolor sit amet conse adipisicing elit. Dicta
-        vitae voluptates id hic recusandae omnis cupiditate odit quis, assumenda optio?
-      </div>
-    </div>
-  </div>
-</div>
 </template>
 
 <script>
-export default {
-
-}
+export default {};
 </script>
 
 <style scoped>
-
 @import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap");
 
-
 /* Timeline container styling */
+
+
+
 .timeline-container {
   display: flex;
   gap: 33.5px;
@@ -93,6 +98,8 @@ export default {
   justify-content: center;
   font-weight: 900;
   font-size: 3rem;
+  margin-top: 17rem;
+  margin-bottom: 20rem;
 }
 
 /* Individual timeline point styling */
@@ -104,7 +111,7 @@ export default {
   display: grid;
   place-items: center;
   width: 168px;
-  height:154px;
+  height: 154px;
   position: relative;
   color: var(--color);
 }
@@ -195,7 +202,7 @@ export default {
   display: grid;
   font-size: 2rem;
   font-weight: bold;
-  color:#fff;
+  color: #fff;
   place-items: center;
   cursor: auto;
   animation: fadeIn 0.5s linear calc(var(--delay) + 0.7s) forwards;
@@ -300,18 +307,21 @@ export default {
     height: auto;
     display: block;
   }
+
   .timeline-container {
     flex-direction: column;
     height: auto;
     width: 100%;
     padding: 100px 0px;
+    margin-bottom: 0rem;
+    margin-top: 0;
   }
 
   .timeline-point {
     height: 134px;
     flex-shrink: 0;
     left: calc(-321px / 2);
-    margin: 0px auto;
+    margin: 10px auto;
     position: relative;
   }
 
@@ -337,5 +347,4 @@ export default {
     right: -370.1px;
   }
 }
-
 </style>
