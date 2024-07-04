@@ -106,5 +106,37 @@ filter: grayscale(1);
 100% { height: 300%; }
 }
 
+@media (max-width: 720px) {
+  .about-page {
+    margin-left: 0;
+    width: 300%;
+    font-size: 1rem;
+  }
+
+  .container {
+    margin-top: 0rem;
+    transform: rotate3d(-1, -2, 0.2, 32deg);
+    margin-left:15rem;
+
+  }
+.box-container {
+  column-gap:1px;
+}
+
+}
+
+@media (max-width: 300px) {
+  .about-page {
+    font-size: 2rem;
+    width: 110%;
+    margin-left: 10rem;
+  }
+
+  .box-container {
+      display: none;
+  }
+
+}
+
 
 </style>
