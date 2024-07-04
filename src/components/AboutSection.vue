@@ -106,9 +106,5 @@ filter: grayscale(1);
 100% { height: 300%; }
 }
 
-@media (max-width: 600px) {
-.container {
-transform: scale(0.5);
-}
-}
+
 </style>
