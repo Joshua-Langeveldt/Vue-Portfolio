@@ -51,7 +51,7 @@
                     <a class="nav-link" aria-current="page" href="#about">About</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" aria-current="page" href="#education">Education</a>
+                    <a class="nav-link" aria-current="page" href="#education">Resume</a>
                   </li>
                   <li class="nav-item">
                     <a class="nav-link" aria-current="page" href="#skills">Skills</a>
