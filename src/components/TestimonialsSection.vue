@@ -25,7 +25,7 @@
   
       <!-- Placeholder for loading state -->
       <div v-else>
-        Loading testimonials
+      <Spinner />
       </div>
   
       <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">

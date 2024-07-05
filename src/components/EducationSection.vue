@@ -12,9 +12,7 @@
             <div class="popup-number">1</div>
             <div class="popup-details">
               <div class="popup-title">Alexander Sinton High</div>
-              Lorem ipsum dolor sit amet conse adipisicing elit. Dicta vitae
-              voluptates id hic recusandae omnis cupiditate odit quis, assumenda
-              optio?
+              In my high school years, I had the opportunity to develop essential life skills and gain valuable lessons. These experiences have greatly influenced my personal growth and helped me navigate life after graduating and obtaining my Matric certification.
             </div>
           </div>
         </div>
@@ -26,9 +24,7 @@
             <div class="popup-number">2</div>
             <div class="popup-details">
               <div class="popup-title">Mango5 Dotsure</div>
-              Lorem ipsum dolor sit amet conse adipisicing elit. Dicta vitae
-              voluptates id hic recusandae omnis cupiditate odit quis, assumenda
-              optio?
+              After completing high school, I gained valuable work experience at an insurance company where I specialized in selling car and home insurance. During my tenure, I actively participated in professional development by completing multiple courses and obtaining relevant certifications.
             </div>
           </div>
         </div>
@@ -40,9 +36,7 @@
             <div class="popup-number">3</div>
             <div class="popup-details">
               <div class="popup-title">Sanlam</div>
-              Lorem ipsum dolor sit amet conse adipisicing elit. Dicta vitae
-              voluptates id hic recusandae omnis cupiditate odit quis, assumenda
-              optio?
+              After leaving Dotsure, I was sought out by Sanlam due to my outstanding performance. During my tenure at Sanlam, I established valuable connections and consistently excelled in my role.
             </div>
           </div>
         </div>
@@ -54,9 +48,7 @@
             <div class="popup-number">4</div>
             <div class="popup-details">
               <div class="popup-title">IHS House Sitting</div>
-              Lorem ipsum dolor sit amet conse adipisicing elit. Dicta vitae
-              voluptates id hic recusandae omnis cupiditate odit quis, assumenda
-              optio?
+              After signing a part-time contract with Sanlam to accommodate my studies, I faced financial challenges. Subsequently, I transitioned to working for IHS, where my responsibilities included maintaining houses and apartments by living on-site and ensuring their cleanliness and order.
             </div>
           </div>
         </div>
@@ -68,9 +60,7 @@
             <div class="popup-number">5</div>
             <div class="popup-details">
               <div class="popup-title">Life Choice Academy</div>
-              Lorem ipsum dolor sit amet conse adipisicing elit. Dicta vitae
-              voluptates id hic recusandae omnis cupiditate odit quis, assumenda
-              optio?
+              While employed at IHS, I received an email from Life Choices informing me that I had been accepted for enrollment at the institution. This news brought me immense joy and relief, as it meant I could continue pursuing my dream of becoming a web developer.
             </div>
           </div>
         </div>
