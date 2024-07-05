@@ -66,6 +66,7 @@
         </div>
       </div>
     </div>
+    <a href="https://joshua-langeveldt.github.io/learnify_certified/Jamin%20CV%202k24.pdf" download="Jamin_CV_2k24.pdf" class="btn btn-primary border-white">Download CV</a>
   </div>
 </template>
 
@@ -164,7 +165,7 @@ export default {};
 /* Popup styling */
 .popup {
   width: 321.6px;
-  height: auto;
+  height: 200px;
   max-height: 0;
   background-color: var(--color);
   display: grid;
@@ -307,11 +308,12 @@ export default {};
     margin-top: 0;
   }
 
+
   .timeline-point {
     height: 134px;
     flex-shrink: 0;
     left: calc(-321px / 2);
-    margin: 10px auto;
+    margin: 2rem auto;
     position: relative;
   }
 
