@@ -26,7 +26,7 @@
     </section>
 
     <section class="row max-height" id="projects">
-      <h2 class="main-heading">Projects</h2>
+      
       <ProjectsSection />
     </section>
 
