@@ -22,10 +22,8 @@
               </div>
               <div class="col-md-3">
                 <h2 class="footer-heading mb-4">Follow Me</h2>
-                <a href="https://www.facebook.com/people/Jamin-Langeveldt/100085368770446/?paipv=0&eav=AfZnd01a04X3-h_TMAqzUv96LuCFeiwL9ujAsTb2QsTXxAVV4fFmtpsQRDS7vb_19nw&_rdr" class="fa fa-facebook nav-links"></a>
-                <a href="https://github.com/King20Jamin" class="fa fa-github nav-links"></a>
-                <a href="https://www.instagram.com/king_legendx/" class="fa fa-instagram nav-links"></a>
-                <a href="https://www.linkedin.com/in/jamin-langeveldt-04b304289/?originalSubdomain=za" class="fa fa-linkedin nav-links"></a>                
+                <a href="https://github.com/King20Jamin" class="nav-links"><i class="bi bi-github"></i></a>
+                <a href="https://www.linkedin.com/in/jamin-langeveldt-04b304289/?originalSubdomain=za" class=" nav-links"><i class="bi bi-linkedin"></i></a>                
               </div>
             </div>
           </div>
