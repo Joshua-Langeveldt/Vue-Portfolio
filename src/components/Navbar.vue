@@ -79,5 +79,11 @@
   </script>
   
   <style scoped>
+ 
+  .offcanvas {
+    background-color: #000; 
+    color: #fff; 
+  }
+
   
   </style>
