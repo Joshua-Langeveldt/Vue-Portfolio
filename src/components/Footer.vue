@@ -8,7 +8,7 @@
                 <h2 class="footer-heading mb-4">Find Me</h2>
                 <p>South Africa, Cape Town </p>
                   <p>Address: Bonteheuwel, 7764</p>
-                  <p>Phone Number: +27 78 450 3293</p>
+                  <p>Phone Number: +27 78 450 3293 || +27 73 916 0058</p>
                   <p>Email:langeveldt20joshua@gmail.com</p>
               </div>
               <div class="col-md-3 ml-auto">

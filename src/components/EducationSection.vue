@@ -66,7 +66,8 @@
         </div>
       </div>
     </div>
-    <a href="https://joshua-langeveldt.github.io/learnify_certified/Jamin%20CV%202k24.pdf" download="Jamin_CV_2k24.pdf" class="btn btn-primary border-white">Download CV</a>
+    <a href="https://drive.google.com/uc?export=download&id=1eR4opf_Mh8h2LNUNjNpJUVlSUcLiiFge" id="download-link"><button class="btn">Download CV</button></a>
+    <!-- <a href="https://joshua-langeveldt.github.io/learnify_certified/Jamin%20CV%202k24.pdf" download="Jamin_CV_2k24.pdf" class="btn btn-primary border-white">Download CV</a> -->
   </div>
 </template>
 
@@ -80,6 +81,23 @@ export default {};
 
 /* Timeline container styling */
 
+button {
+    background-color: #0A0D12;
+    color: white;
+    border-radius: 1rem;
+    padding: 0.3rem;
+    border: 0;
+    width: 9rem;
+    margin:2rem;
+    height: 3.5rem;
+  }
+  button:hover {
+    background-color: gold;
+    color: #000;
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.7);
+    transition: 0.2s;
+    transform: scale(1.1);
+  }
 
 
 .timeline-container {

@@ -51,14 +51,14 @@
                     <a class="nav-link" aria-current="page" href="#about">About</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" aria-current="page" href="#education">Resume</a>
+                    <a class="nav-link" aria-current="page" href="#education">Edu/Exp</a>
                   </li>
                   <li class="nav-item">
                     <a class="nav-link" aria-current="page" href="#skills">Skills</a>
                   </li>
-                  <li class="nav-item">
+                  <!-- <li class="nav-item">
                     <a class="nav-link" aria-current="page" href="#testimonials">Testimonials</a>
-                  </li>
+                  </li> -->
                   <li class="nav-item">
                     <a class="nav-link" aria-current="page" href="#projects">Projects</a>
                   </li>
@@ -81,7 +81,7 @@
   <style scoped>
  
   .offcanvas {
-    background-color: #000; 
+    background-color: var(--gradient); 
     color: #fff; 
   }
 

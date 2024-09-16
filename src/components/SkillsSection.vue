@@ -91,12 +91,12 @@
   
   .animation-container {
     position: relative;
-    width: 800px;
+    width: 850px;
     height: 500px;
-    margin: auto ;
+    margin: auto;
     animation-timing-function: linear;
     animation-iteration-count: infinite;
-    top: 20%;
+    top: 35%;
     transform: translateY(-55%);
   }
   
@@ -280,7 +280,7 @@
   
   .button-container {
     position: absolute;
-    top: 416%;
+    top: 455%;
     left: 50.5%;
     transform: translate(-50%, -50%);
     z-index: 1;
@@ -317,12 +317,13 @@
 
   .animation-container {
     width: 100%;
-    height: 50%;    
+    height: 50%;   
+    top: 15%; 
   }
 
   .button-container{
 
-    top: 269rem !important;
+    top: 290rem !important;
     left:29rem;
   }
 
@@ -347,11 +348,11 @@
   .animation-container {
     width: 100%;
     height: 250px; 
-    top: 15%;
+    top: 20%;
   }
 
   .button-container{
-top: 313rem !important;
+top: 338rem !important;
 left:37rem;
 }
 

@@ -9,6 +9,7 @@
                 </p>
                 <Spinner v-else/>
             </div>
+            <a href="https://drive.google.com/uc?export=download&id=1eR4opf_Mh8h2LNUNjNpJUVlSUcLiiFge" id="download-link"><button class="btn cv-btn">Download CV</button></a>
         </div>
         <div class="rotating-div image-box border-animation container-fluid">
             <img src="https://joshua-langeveldt.github.io/images/images/Logo/king2.webp" alt="Crown" class="crown-image">
@@ -48,6 +49,27 @@
   </script>
   
   <style scoped>
+
+.cv-btn{
+  background-color: #0A0D12;
+    color: white;
+    border-radius: 1rem;
+    padding: 0.3rem;
+    border: 0;
+    width: 9rem;
+    margin-top:15rem;
+    height: 3.5rem;
+    margin-left: -47rem;
+
+}
+
+.cv-btn:hover{
+  background-color: gold;
+    color: #000;
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.7);
+    transition: 0.2s;
+    transform: scale(1.1);
+}
     h1 {
         margin: 10rem;
     }
@@ -74,7 +96,26 @@
   
         /* Media queries for responsiveness */
         @media (max-width: 720px) {
-  
+          .cv-btn{
+  background-color: #0A0D12;
+    color: white;
+    border-radius: 1rem;
+    padding: 0.3rem;
+    border: 0;
+    width: 9rem;
+    margin-top:5rem;
+    height: 3.5rem;
+    margin-left: -55rem;
+
+}
+
+.cv-btn:hover{
+  background-color: gold;
+    color: #84A7A1;
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.7);
+    transition: 0.2s;
+    transform: scale(1.1);
+}
   
   .d-flex {
   flex-direction: column;
@@ -104,6 +145,27 @@
 }
 
 @media (max-width: 300px) {
+  .cv-btn{
+  background-color: #0A0D12;
+    color: white;
+    border-radius: 1rem;
+    padding: 0.3rem;
+    border: 0;
+    width: 9rem;
+    margin-top:10rem;
+    height: 3.5rem;
+    margin-left: -70rem;
+
+}
+
+.cv-btn:hover{
+  background-color: gold;
+    color: #84A7A1;
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.7);
+    transition: 0.2s;
+    transform: scale(1.1);
+}
+
 .d-flex {
   flex-direction: column;
   align-items: center;

@@ -12,8 +12,16 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-::-webkit-scrollbar {
-  display: none;
+html::-webkit-scrollbar {
+  width: 0.7rem;
+  overflow: hidden;
+}
+html::-webkit-scrollbar-track {
+  background: white;
+}
+html::-webkit-scrollbar-thumb {
+  background: var(--gradient);
+  border-radius: 5rem;
 }
 
 :root {
@@ -23,6 +31,7 @@
   --secondary: #fff;
   --main: #000;
   --alternative: gold;
+  --gradient: linear-gradient(to top,#7B3F00,  #d1691d, #ff5349);
 }
 
 body {
@@ -36,7 +45,6 @@ body {
 
 section{
   scroll-margin: 4rem;
-  /* margin-bottom: 70% !important; */
 }
 
 nav {
