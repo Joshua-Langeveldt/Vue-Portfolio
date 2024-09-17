@@ -73,6 +73,8 @@
   font-weight: 400;
   font-style: normal;
       font-size: 1.2rem;
+      margin-bottom: 0rem;
+      margin-top: 15rem;
   }
   
   /* About me section */

@@ -10,14 +10,14 @@
       <AboutSection/>
     </section>
 
-    <section class="row max-height" id="education">
-      <h2 class="main-heading">Education & Experience</h2>
-      <EducationSection />
-    </section>
-
     <section class="row max-height" id="skills">
       <h2 class="main-heading">Skills</h2>
       <SkillsSection />
+    </section>
+
+    <section class="row max-height" id="education">
+      <h2 class="main-heading">Education & Experience</h2>
+      <EducationSection />
     </section>
 
     <!-- <section class="row max-height" id="testimonials">

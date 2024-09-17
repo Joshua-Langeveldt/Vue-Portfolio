@@ -280,7 +280,7 @@
   
   .button-container {
     position: absolute;
-    top: 425%;
+    top: 300%;
     left: 50.5%;
     transform: translate(-50%, -50%);
     z-index: 1;
@@ -323,7 +323,7 @@
 
   .button-container{
 
-    top: 290rem !important;
+    top: 190rem !important;
     left:29rem;
   }
 
@@ -352,7 +352,7 @@
   }
 
   .button-container{
-top: 338rem !important;
+top: 237rem !important;
 left:37rem;
 }
 

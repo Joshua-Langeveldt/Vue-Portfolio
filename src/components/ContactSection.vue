@@ -77,7 +77,7 @@ export default {
 
 .containing {
     max-width: 960px;
-    margin: 0 auto;
+    margin: 5rem auto;
     padding: 15px;
 }
 
@@ -97,7 +97,7 @@ form {
     padding: 10px;
     border: 2px solid black;
     border-radius: 4px;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
 }
 
 .btn-primary {
