@@ -39,9 +39,23 @@ body {
   font-weight: 400;
   font-style: normal;
   color: var(--secondary);
-  background: linear-gradient(to bottom,#7B3F00,  #d1691d, #ff5349);
+  background: linear-gradient(-45deg, #7B3F00,  #d1691d, #ff5349);
+  /* animation: gradient 15s ease infinite; */
+  /* background: linear-gradient(-45deg, #27ae60, #8b0000, #f82d2d, #130f40); */
 
 }
+
+/* @keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+} */
 
 section{
   scroll-margin: 4rem;
@@ -49,7 +63,7 @@ section{
 
 nav {
   padding: 30px;
-background: linear-gradient(to top, #7B3F00,  #d1691d, #ff5349);
+background: linear-gradient(-45deg, #7B3F00,  #d1691d, #ff5349);
 }
 
 nav a {
@@ -170,7 +184,7 @@ img[alt="logo"] {
   transition: transform 1s;
   top: -150%;
   border-radius: 30px;
-  box-shadow: 6px 3px 4px  #7B3F00;
+  box-shadow: 6px 3px 4px  #666;
 
 
 }
