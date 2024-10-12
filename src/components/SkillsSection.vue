@@ -280,7 +280,7 @@
   
   .button-container {
     position: absolute;
-    top: 300%;
+    top: 340%;
     left: 50.5%;
     transform: translate(-50%, -50%);
     z-index: 1;
