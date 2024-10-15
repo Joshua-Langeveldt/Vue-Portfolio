@@ -63,16 +63,24 @@
 
 
   <style scoped>
+
+  .container{
+     margin-top: -25rem;
+     
+  }
+
   .projects {
     min-height: 100vh;
     display: flex;
     justify-content: center;
   }
+
   .col {
     display: flex;
     justify-content: center;
     align-content: center;
   }
+
   .carding {
     background: linear-gradient(to bottom,#7B3F00,  #d1691d, #ff5349);
     color: white;

@@ -20,6 +20,12 @@
       <EducationSection />
     </section>
 
+    <section class="row max-height" id="certifications">
+      <h2 class="main-heading">My Certifications</h2>
+      <p> These Are The Certifications I Aquired During My Journey.</p>
+      <Certification />
+    </section>
+
     <!-- <section class="row max-height" id="testimonials">
       <h2 class="main-heading">Testimonials</h2>
       <TestimonialsSection />
@@ -44,7 +50,7 @@ import LandingSection from '@/components/LandingSection.vue'
 import AboutSection from '@/components/AboutSection.vue'
 import EducationSection from '@/components/EducationSection.vue'
 import SkillsSection from '@/components/SkillsSection.vue'
-// import TestimonialsSection from '@/components/TestimonialsSection.vue'
+import Certification from '@/components/Certification.vue'
 import ProjectsSection from '@/components/ProjectsSection.vue'
 import ContactSection from '@/components/ContactSection.vue'
 export default {
@@ -54,7 +60,7 @@ export default {
     AboutSection,
     EducationSection,
     SkillsSection,
-    // TestimonialsSection,
+    Certification,
     ProjectsSection,
     ContactSection
   }
@@ -63,8 +69,18 @@ export default {
 
 <style scoped>
 
+#projects{
+  margin-top: 30rem;  
+}
+
   #education h2{
 
     margin-bottom: 4rem;
+  }
+
+  p {
+    font-size:1.2rem;
+    color:#fff;
+    font-weight:400;
   }
 </style>

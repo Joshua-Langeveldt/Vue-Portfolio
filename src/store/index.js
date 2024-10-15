@@ -12,7 +12,8 @@ export default createStore({
     experiences: null,
     skills: null,
     testimonials: null,
-    projects: null
+    projects: null,
+    certifications: null
   },
 
   getters: {
@@ -33,6 +34,9 @@ export default createStore({
     },
     setSkills(state, value){
       state.skills = value
+    },
+    setCertifications(state, value){
+      state.certifications = value
     },
     setTestimonials(state, value){
       state.testimonials = value
@@ -90,6 +94,20 @@ export default createStore({
       try {
         let { experiences } = await (await axios.get(portfolioURL)).data
         context.commit("setExperiences", experiences)
+      } catch (error) {
+        Swal.fire({
+          title: "Error",
+          text: "Failed to fetch experience details",
+          icon: "error",
+          timer: 2000
+        })
+      }
+    },
+
+    async fetchCertificates(context){
+      try {
+        let { certifications } = await (await axios.get(portfolioURL)).data
+        context.commit("setCertifications", certifications)
       } catch (error) {
         Swal.fire({
           title: "Error",

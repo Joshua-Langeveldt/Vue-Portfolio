@@ -92,8 +92,8 @@ button {
     height: 3.5rem;
   }
   button:hover {
-    background-color: gold;
-    color: #000;
+    background-color: #141C27;
+    color: #84A7A1;
     box-shadow: 0 10px 15px rgba(0, 0, 0, 0.7);
     transition: 0.2s;
     transform: scale(1.1);
