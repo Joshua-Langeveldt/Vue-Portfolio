@@ -136,7 +136,7 @@
   button {
     background-color: #0A0D12;
     color: white;
-    border-radius: 1rem;
+    border-radius: 0.5rem;
     padding: 0.3rem;
     border: 0;
     width: 7rem;

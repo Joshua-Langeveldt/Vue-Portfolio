@@ -8,7 +8,7 @@
       </div>
     </div>
 
-    <!-- Modal Structure -->
+<!-- Modal Structure -->
     <div id="myModal" class="modal" v-if="isModalOpen">
       <span class="close" @click="closeModal">&times;</span>
       <img class="modal-content" :src="modalImage" alt="Modal Image">
@@ -145,7 +145,7 @@ export default {
         {
           title: 'Work Life Balance',
           image: 'https://joshua-langeveldt.github.io/Global-Images/images/Logo/Learnify3.jpg',
-          modalImage: 'https://joshua-langeveldt.github.io/Global-Images/images/Certifications/Learnify-Certificates/Work-Life-Balance.jpg'
+          modalImage: 'https://joshua-langeveldt.github.io/Global-Images/images/Certifications/Learnify-Certificates/Work-Life.jpg'
         },
 
 //Udemy
@@ -169,7 +169,7 @@ export default {
          {
           title: 'Full Stack Web Developer',
           image: 'https://joshua-langeveldt.github.io/Global-Images/images/Logo/LC.png',
-          modalImage: 'https://joshua-langeveldt.github.io/Global-Images/images/Certifications/Cisco/Linux-Unhatched.png'
+          modalImage: 'https://joshua-langeveldt.github.io/Global-Images/images/Certifications/LC.jpg'
         }
       ],
     };
@@ -250,27 +250,37 @@ body {
   left: 50%;
   transform: translate(-50%, -50%);
   font-size: 1.1rem;
-  font-weight: 400;
+  font-weight: 300;
   text-align: center;
+  font-family: "Italiana", sans-serif;
 }
 
 .view-btn {
   top: 70%;
   left: 50%;
   transform: translate(-50%, -50%);
-  padding: 6px 10px;
+  padding: 0.3rem;
+    width: 4.5rem;
+  height:1.5rem;
+color: white;
   background-color: #0A0D12;
   border: none;
   font-size: 0.5rem;
   font-weight: 300;
-  border-radius: 5px;
+  border-radius: 0.5rem;
   margin-top: 0.5rem;
   cursor: pointer;
 }
 
+    
+    
+  
+    
+
+
 view-btn:hover{
     background-color: #141C27;
-    color: #84A7A1;
+    color: #fff;
     box-shadow: 0 10px 15px rgba(0, 0, 0, 0.7);
     transition: 0.2s;
     transform: scale(1.1);
@@ -302,35 +312,72 @@ view-btn:hover{
 
 /* Modal styles */
 .modal {
-    display: none;
-    position: absolute;
-    z-index: 1;
-    left: -9rem;
-    top: -3.6rem;
-    width: 380%;
-    height: 300%;
+    display: block;
+    position: fixed;
+    z-index: 999;
+    left: 34rem;
+    top: 5rem;
+    width: 400%;
+    height: 250%;
     overflow: hidden;
-    border-radius: 10px;
     background-color: rgba(0, 0, 0, 0.8);
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .modal-content {
-    display: block;
-    margin: 0% auto;
-    max-width: 100%;
+ max-width: 90%;
+    max-height: 90%;
     border-radius: 10px;
-    object-postion: center;
-  object-fit:cover;
+    object-fit: contain;
 }
 
 .close {
     position: absolute;
     top: -5px;
-    right: 0px;
+    right: 20px;
     color: #000;
-    font-size: 50px;
-    font-weight: bold;
+    font-size: 70px;
+    font-weight: 300;
+    z-index: 1000;
     cursor: pointer;
 }
+
+.close:hover,
+.close:focus {
+    color: #141C27;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+ @media (max-width: 720px) {
+/* Modal styles */
+.modal {
+    display: block;
+    position: fixed;
+    z-index: 999;
+    left: 14rem;
+    top: 5rem;
+    width: 400%;
+    height: 250%;
+    overflow: hidden;
+    background-color: rgba(0, 0, 0, 0.8);
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+  }
+
+   @media (max-width: 300px) {
+
+    .modal {
+      left: 22rem;
+    }
+   }
+
 
 </style>

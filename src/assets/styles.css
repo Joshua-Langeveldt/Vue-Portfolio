@@ -135,7 +135,7 @@ img {
     &:hover {
         transform: scale(1.2);
         font-weight:bolder;
-        color: gold;
+        color: #141C27;
     }
 }
 

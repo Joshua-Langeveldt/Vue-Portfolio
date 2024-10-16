@@ -81,6 +81,7 @@ export default {
   p {
     font-size:1.2rem;
     color:#fff;
-    font-weight:400;
+    font-weight:500;
+    font-family: "Italiana", sans-serif;
   }
 </style>
